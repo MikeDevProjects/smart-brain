@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "deploy": "rm -rf build && npm run buil && cd build && git init && git add . && git commit -m \"Initial Commit \" && git remote add origin https://github.com/zywmik/smart-brain.git && git push --force origin master:gh-pages"
   },
   "devDependencies": {
     "prettier": "1.18.2"
