@@ -1,5 +1,6 @@
 {
   "name": "facerecognitionbrain",
+  "homepage": "https://zywmik.github.io/smart-brain/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,9 +21,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged",
-    "deploy": "rm -rf build && npm run buil && cd build && git init && git add . && git commit -m \"Initial Commit \" && git remote add origin https://github.com/zywmik/smart-brain.git && git push --force origin master:gh-pages"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "1.18.2"
   }
 }

@@ -20,3 +20,7 @@ Created to play around with:
 1. Clone this repo
 2. Run `npm install`
 3. Run `npm start`
+
+## DEMO
+
+You can watch the demo [here](https://youtu.be/oN9gBKOvhVQ).
