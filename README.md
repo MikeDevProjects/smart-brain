@@ -2,7 +2,7 @@
 
 ## Overview
 
-This app lets you detect multiple faces on an uploaded image 😱.
+This app lets you detect multiple faces at once 😱.
 
 SmartBrain also takes advantage of authentication and session management using JSON web tokens
 
